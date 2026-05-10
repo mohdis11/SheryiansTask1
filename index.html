@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismé — Cotton Weave</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Global radio/checkbox state — must precede <main> for CSS ~ sibling selector -->
+    <input type="radio" name="thumb" id="t1" checked />
+    <input type="radio" name="thumb" id="t2" />
+    <input type="radio" name="thumb" id="t3" />
+    <input type="radio" name="thumb" id="t4" />
+    <input type="checkbox" id="toggle-details" />
+    <input type="radio" name="color" id="c-olive" checked />
+    <input type="radio" name="color" id="c-sand" />
+    <input type="radio" name="color" id="c-blush" />
+
+    <!-- NAV -->
+    <nav>
+      <a href="#" class="logo">Ism<em>é</em>.</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Shop</a></li>
+        <li><a href="#">Collection</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="cart-icon">
+          <svg
+            width="22"
+            height="22"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewBox="0 0 24 24"
+          >
+            <path d="M6 2 3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 01-8 0" />
+          </svg>
+          <span class="cart-badge">2</span>
+        </div>
+        <div class="menu-icon"><span></span><span></span></div>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+      <!-- LEFT -->
+      <div class="left-panel">
+        <div class="collection-tag">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            id="Leaf--Streamline-Sharp-Remix"
+          >
+            <desc>Leaf Streamline Icon: https://streamlinehq.com</desc>
+            <g id="leaf--nature-environment-leaf-ecology-plant-plants-eco">
+              <path
+                id="Union"
+                fill="#000000"
+                fill-rule="evenodd"
+                d="m23.2326 2.20816 0.2928 -1.733551 -1.7336 0.292816L5.6953 3.48631l-0.39351 0.06647 -0.28219 0.28219C1.18482 7.66975 0.695456 13.6111 3.69832 17.8268L0.262573 21.2625l2.474877 2.4749 3.43575 -3.4357c4.2157 3.0028 10.157 2.5135 13.9918 -1.3213l0.2822 -0.2822 0.0665 -0.3935 2.7189 -16.09654ZM7.97508 18.4998c3.08032 1.9501 7.25842 1.6248 10.14242 -1.0193l2.3572 -13.95518 -13.95526 2.3572C3.87533 8.76649 3.55008 12.9446 5.50021 16.0249l6.26239 -6.26237 2.4748 2.47487 -6.26232 6.2624Z"
+                clip-rule="evenodd"
+                stroke-width="1"
+              ></path>
+            </g>
+          </svg>
+          New Collection
+        </div>
+
+        <h1 class="product-title">a cotton<br />weave</h1>
+
+        <div class="divider"></div>
+
+        <p class="product-desc">
+          Crafted from 100% organic cotton with a soft, breathable feel. Perfect
+          for all seasons and everyday elegance.
+        </p>
+
+        <div class="color-section">
+          <p>colors</p>
+          <div class="color-swatches">
+            <label
+              class="swatch-label olive"
+              for="c-olive"
+              title="Olive"
+            ></label>
+            <label class="swatch-label sand" for="c-sand" title="Sand"></label>
+            <label
+              class="swatch-label blush"
+              for="c-blush"
+              title="Blush"
+            ></label>
+          </div>
+        </div>
+
+        <div class="details-section">
+          <label class="details-header" for="toggle-details">
+            <span>Details</span>
+            <span class="dash"></span>
+          </label>
+          <p class="details-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
+            sapiente. Ipsam maiores nemo, quidem veniam et atque suscipit, saepe
+            doloribus ab molestiae deserunt? Totam natus eligendi neque.
+          </p>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C8 2 4 6 4 10c0 5 8 12 8 12s8-7 8-12c0-4-4-8-8-8z"
+                />
+              </svg>
+            </div>
+            <span>Organic<br />Cotton</span>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </div>
+            <span>Soft &amp;<br />Lightweight</span>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewBox="0 0 24 24"
+              >
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+              </svg>
+            </div>
+            <span>Handmade<br />Weave</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CENTER -->
+      <div class="center-panel">
+        <div class="product-card">
+          <div class="card-face face-1"></div>
+          <div class="card-face face-2"></div>
+          <div class="card-face face-3"></div>
+          <div class="card-face face-4"></div>
+
+          <div class="card-figure">
+            <img src="https://i.etsystatic.com/16171986/r/il/f16b3d/2551017626/il_1588xN.2551017626_p9z7.jpg" alt="">
+          </div>
+          <div class="card-overlay"></div>
+
+          <div class="price-badge">$488</div>
+
+          <div class="rating-badge">
+            Rating
+            <span class="stars">★★★★<span style="opacity: 0.3">★</span></span>
+          </div>
+
+          <a href="#" class="atb">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              viewBox="0 0 24 24"
+            >
+              <path d="M6 2 3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 01-8 0" />
+            </svg>
+            Add to bag
+          </a>
+
+          <div class="vertical-label">cotton twill scarf</div>
+        </div>
+
+        <div class="trust-bar">
+          <div class="trust-item">
+            <svg
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+            <div><div class="trust-label">Secure Payment</div></div>
+          </div>
+          <div class="trust-sep"></div>
+          <div class="trust-item">
+            <svg
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <rect x="1" y="3" width="15" height="13" rx="2" />
+              <path d="M16 8h4l3 5v3h-7V8z" />
+              <circle cx="5.5" cy="18.5" r="2.5" />
+              <circle cx="18.5" cy="18.5" r="2.5" />
+            </svg>
+            <div>
+              <div class="trust-label">Free Shipping</div>
+              <div class="trust-sub">Over $100</div>
+            </div>
+          </div>
+          <div class="trust-sep"></div>
+          <div class="trust-item">
+            <svg
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <polyline points="1 4 1 10 7 10" />
+              <path d="M3.51 15a9 9 0 102.13-9.36L1 10" />
+            </svg>
+            <div>
+              <div class="trust-label">Easy Returns</div>
+              <div class="trust-sub">30 Days</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THUMBNAILS -->
+      <div class="thumb-strip">
+        <label class="thumb-label" for="t1"
+          ><div class="thumb-img ti1"><img src="https://i.etsystatic.com/16171986/r/il/1376cc/2052262034/il_1588xN.2052262034_ps5v.jpg" alt=""></div
+        ></label>
+        <label class="thumb-label" for="t2"
+          ><div class="thumb-img ti2"><img src="https://i.etsystatic.com/16171986/r/il/abed68/2052261416/il_1588xN.2052261416_mmey.jpg" alt=""></div
+        ></label>
+        <label class="thumb-label" for="t3"
+          ><div class="thumb-img ti3"><img src="https://i.etsystatic.com/16171986/r/il/302be8/2052261642/il_1588xN.2052261642_ofif.jpg" alt=""></div
+        ></label>
+        <label class="thumb-label" for="t4"
+          ><div class="thumb-img ti4"><img src="https://i.etsystatic.com/16171986/r/il/b3cc35/2052261546/il_1588xN.2052261546_tarr.jpg" alt=""></div
+        ></label>
+      </div>
+    </main>
+  </body>
+</html>
